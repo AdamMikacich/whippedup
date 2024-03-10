@@ -1,6 +1,5 @@
 import {
   IoChatbubbleEllipses,
-  IoChevronBack,
   IoChevronBackOutline,
   IoHome,
   IoPerson,
