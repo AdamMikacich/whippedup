@@ -28,10 +28,10 @@ function KitchenPage({ setPageName }: KitchenPageProps) {
       <div className="flex flex-row justify-between px-6 mb-5">
         <h1 className="text-4xl font-semibold">My Kitchen</h1>
         <button
-          className="bg-[#f05a24] text-white py-3 px-5 text-xl rounded-2xl"
+          className="bg-[#f05a24] text-white py-2 px-8 text-xl rounded-2xl"
           onClick={() => setPageName('create')}
         >
-          Create
+          New
         </button>
       </div>
       <div className="flex flex-row gap-x-4 overflow-x-auto">
@@ -70,13 +70,13 @@ function CreatePage({ setPageName }: KitchenPageProps) {
         Back
       </button>
 
-      <div className="flex flex-col gap-y-4 px-6 mb-8 mt-36">
+      <div className="flex flex-col gap-y-3 px-8 mb-10 mt-36">
         <h1 className="text-4xl font-semibold">New Book</h1>
         <p className="font-light text-base text-gray-400">
           Please enter a name for the new book
         </p>
       </div>
-      <div className="flex flex-col gap-y-2 px-6 mb-5">
+      <div className="flex flex-col gap-y-3 px-8 mb-5">
         <input
           type="text"
           className="text-sm w-full h-14 rounded-xl border border-gray-200 px-4 placeholder:font-light active:outline-none focus:outline-none focus:ring-2 focus:ring-[#f05a24] focus:border-transparent"
