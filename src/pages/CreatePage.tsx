@@ -5,6 +5,9 @@ type CreatePageProps = {
   setPageName: (pageName: string) => void;
 };
 
+/**
+ * CreatePage component displays a form to create a new book.
+ */
 export function CreatePage({ setPageName }: CreatePageProps) {
   return (
     <>

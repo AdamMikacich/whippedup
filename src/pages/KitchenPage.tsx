@@ -5,6 +5,9 @@ type KitchenPageProps = {
   setPageName: (pageName: string) => void;
 };
 
+/**
+ * KitchenPage component displays a list of books in the kitchen and favorites.
+ */
 export function KitchenPage({ setPageName }: KitchenPageProps) {
   const bookCount = 12;
 

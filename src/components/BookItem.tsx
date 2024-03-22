@@ -1,5 +1,8 @@
 import React from 'react';
 
+/**
+ * BookItem component displays a book item with a placeholder gray background and text.
+ */
 export function BookItem() {
   return (
     <div>

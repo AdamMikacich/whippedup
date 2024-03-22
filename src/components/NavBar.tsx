@@ -5,6 +5,10 @@ type NavBarProps = {
   setPageName: (pageName: string) => void;
 };
 
+/**
+ * NavBar component displays the navigation bar at the bottom of the screen.
+ * Clicking on the icons changes the page.
+ */
 export function NavBar({ setPageName }: NavBarProps) {
   return (
     <div className="fixed bottom-0 text-4xl text-black w-full px-16 bg-white shadow-[0_0_20px_0_rgba(0,0,0,0.1)]">
