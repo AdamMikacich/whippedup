@@ -4,8 +4,9 @@ React demo application for WhippedUp! Includes kitchen (home) page and create ne
 
 ### Install
 
-npm install
+`npm install`
 
 ### Run
 
-npm run dev
+1. `npm run dev`
+2. Open the given link in a web browser with a mobile device aspect ratio
